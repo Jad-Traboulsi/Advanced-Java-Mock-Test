@@ -1,0 +1,54 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="contact" class="fr.epita.data.Contact">
+        <constructor-arg type = "java.lang.String" value = "Jad"/>
+        <constructor-arg type = "java.lang.String" value = "Traboulsi"/>
+        <constructor-arg type = "java.lang.String" value = "EPITA"/>
+        <constructor-arg type = "java.lang.String" value = "44 Voie Delacroix"/>
+        <constructor-arg type = "java.lang.String" value = "Vitry-sur-seine"/>
+        <constructor-arg type = "java.lang.String" value = "Ile de France"/>
+        <constructor-arg type = "java.lang.String" value = "FR"/>
+
+
+        <constructor-arg type = "int" value = "94400"/>
+
+        <constructor-arg type = "java.lang.String" value = ""/>
+        <constructor-arg type = "java.lang.String" value = "06 37 26 95 16"/>
+        <constructor-arg type = "java.lang.String" value = "jad.tr@epita.fr"/>
+
+    </bean>
+
+    <bean id="myFirstBean" class="java.lang.String">
+        <constructor-arg>
+            <value>Hello from Spring, Jad Traboulsi</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="mainDS">
+        <property name="url" value="127.0.0.1:5432"></property>
+        <property name="username" value="postgres"></property>
+        <property name="password" value="jad"></property>
+    </bean>
+
+
+
+    <context:component-scan base-package="fr.epita.data" />
+
+
+
+
+
+
+
+</beans>

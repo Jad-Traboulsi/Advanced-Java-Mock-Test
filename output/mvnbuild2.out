@@ -1,0 +1,46 @@
+C:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java>mvn install -f "c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\pom.xml"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< fr.epita:jad-traboulsi-adv-java >-------------------
+[INFO] Building MVC 1.0 Blank Project (from https://github.com/making/mvc-1.0-blank) 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jad-traboulsi-adv-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jad-traboulsi-adv-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jad-traboulsi-adv-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jad-traboulsi-adv-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jad-traboulsi-adv-java ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.3:war (default-war) @ jad-traboulsi-adv-java ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.converters.collections.TreeMapConverter (file:/C:/Users/Jadtr/.m2/repository/com/thoughtworks/xstream/xstream/1.4.3/xstream-1.4.3.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.converters.collections.TreeMapConverter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jad-traboulsi-adv-java] in [c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\target\jad-traboulsi-adv-java-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\src\main\webapp]
+[INFO] Webapp assembled in [350 msecs]
+[INFO] Building war: c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\target\jad-traboulsi-adv-java-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jad-traboulsi-adv-java ---
+[INFO] Installing c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\target\jad-traboulsi-adv-java-1.0-SNAPSHOT.war to C:\Users\Jadtr\.m2\repository\fr\epita\jad-traboulsi-adv-java\1.0-SNAPSHOT\jad-traboulsi-adv-java-1.0-SNAPSHOT.war
+[INFO] Installing c:\Users\Jadtr\OneDrive\EPITA\Advanced Java\Exam\jad-traboulsi-adv-java\pom.xml to C:\Users\Jadtr\.m2\repository\fr\epita\jad-traboulsi-adv-java\1.0-SNAPSHOT\jad-traboulsi-adv-java-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.692 s
+[INFO] Finished at: 2021-11-16T11:35:28+01:00
+[INFO] ------------------------------------------------------------------------
